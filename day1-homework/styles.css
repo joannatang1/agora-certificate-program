@@ -1,0 +1,96 @@
+body{
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.left-pane{
+    background-color: #099dfd;
+    width: 47%;
+    height: 65vh;
+    flex: 2;
+    float: left;
+    margin: auto;
+    margin-left: 3%;
+    text-align: center;
+}
+#logo{
+    width: 10vw;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+    width: 80vw;
+    background-color: grey;
+}
+.right-pane{
+    flex: 2;
+    width: 47%;
+    height: 65vh;
+    background-color: white;
+    float: right;
+    margin: auto;
+    margin-right: 3%;
+    top: 50%;
+}
+.img-container{
+    max-width: 100%;
+    max-height: 100%;
+}
+#contents{
+    margin-top: 30px;
+    margin-left: 13%;
+    margin-right: 13%;
+    background-color:#DFDFDF50;
+    width: 75vw;
+    height: 65vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+}
+#comp-img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+#bottom-text{
+    color: white;
+    font-size: 1.5rem;
+}
+#highlighted{
+    color: #099dfd;
+}
+#login-text{
+    padding-top: 100px;
+    font-size: 1.5rem;
+}
+.login-container{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+input{
+    border: 1px solid #099dfd;
+    border-radius: 5px;
+    width: 365px;
+    height: 30px;
+    font-size: 1rem;
+}
+#email{
+    margin-top: 20px;
+}
+#password{
+    margin-top: 5px;
+}
+.submit-button{
+    margin-top: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: #099dfd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
